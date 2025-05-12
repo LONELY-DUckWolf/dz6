@@ -667,11 +667,11 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"a0t4e":[function(require,module,exports,__globalThis) {
-var _numJs = require("../num.js");
+var _numJs = require("./num.js");
 const number = (0, _numJs.getRandomNumber)(1, 100);
 console.log(`\u{421}\u{43B}\u{443}\u{447}\u{430}\u{439}\u{43D}\u{43E}\u{435} \u{447}\u{438}\u{441}\u{43B}\u{43E}: ${number}`);
 
-},{"../num.js":"f6oxV"}],"f6oxV":[function(require,module,exports,__globalThis) {
+},{"./num.js":"3YD7k"}],"3YD7k":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "getRandomNumber", ()=>getRandomNumber);
